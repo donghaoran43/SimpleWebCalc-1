@@ -4,8 +4,8 @@
 ## 运行方式
 1. 运行以下代码
 	```bash
-	cd midware
-	./build-test.sh
+	$ cd midware
+	$ ./build-test.sh
 	```
 
 2. 打开Brower  
