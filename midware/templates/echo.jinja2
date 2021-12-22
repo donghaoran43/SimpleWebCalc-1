@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Simple Calc</title>
+	</head>
+
+	<body>
+		<center>
+		<h1>This is a simple Calc</h1>	
+		<div>
+			<form action="/calc.php" method="post" accept-charset="utf-8">
+			所要计算的式子:
+			<input type="text" name="msg"/>
+			<br></br>
+			</form>
+		</div>
+
+		<div>
+		结果：{{bean}}
+		</div>
+		</center>
+	</body>
+</html>
