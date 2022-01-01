@@ -19,5 +19,12 @@
 		结果：{{bean}}
 		</div>
 		</center>
+		<br/>
+    <ul>
+    {% for num in nums %}
+        <li>{{ num.calc}}={{ num.num}}</li>
+    {% endfor %}
+
+    </ul>
 	</body>
 </html>
